@@ -18,18 +18,20 @@ get_header(); ?>
     <div class="red-box-front">
     </div>
 
-    <div class="projects-box">
-      <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
-        <h2>the projects</h2>
-      </a>
-    <div>
-
-    <div class="person-box">
-      <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">
-        <h2>the person</h2>
-      </a>
-    </div>
+    <div class="front-nav">
+      <div class="projects-box">
+        <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
+          <h2>the projects</h2>
+        </a>
+      </div>
     
+
+      <div class="person-box">
+        <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">
+          <h2>the person</h2>
+        </a>
+      </div>
+    </div> <!-- end front nav --> 
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

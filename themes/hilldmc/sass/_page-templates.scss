@@ -19,3 +19,20 @@
   height: 50vw;
   background-color: $color__secondary;
 }
+
+.front-nav {
+  padding: $base__space-unit;
+  width: 100%;
+  height: 50vw;
+  background-color: $color__main;
+}
+
+.projects-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.person-box {
+  display: flex;
+  justify-content: flex-end;
+}
