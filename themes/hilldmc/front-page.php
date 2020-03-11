@@ -10,8 +10,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-    <div class="title-box">
-      <h1 class="front-title">hillary mclean</h1>
+      <div class="title-box">
+        <h1 class="front-title">hillary mclean</h1>
+      </div>
+
+
+    <div class="red-box-front">
     </div>
 
     <div class="projects-box">
@@ -25,6 +29,7 @@ get_header(); ?>
         <h2>the person</h2>
       </a>
     </div>
+    
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
