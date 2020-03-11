@@ -249,6 +249,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
   letter-spacing: 5px; }
 
+h2 {
+  font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
 /* Copy */
 p {
   margin-bottom: 1.5rem; }
@@ -676,3 +682,16 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 10rem;
+  height: 10rem; }

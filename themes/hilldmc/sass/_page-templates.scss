@@ -3,3 +3,11 @@
 --------------------------------------------------------------*/
 
 /* Front page */
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 10rem;
+  height: 10rem;
+}
