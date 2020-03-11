@@ -19,6 +19,8 @@ get_header(); ?>
     </div>
 
     <div class="front-nav">
+      
+    <div class="vl"></div>
       <div class="projects-box">
       <p class="the-x">X</p>
         <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
