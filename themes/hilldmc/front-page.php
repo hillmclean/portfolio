@@ -20,16 +20,17 @@ get_header(); ?>
 
     <div class="front-nav">
       
-    <div class="vl"></div>
       <div class="projects-box">
+      <div class="vl-front-1"></div>
       <p class="the-x">X</p>
         <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
           <h2>the projects</h2>
         </a>
       </div>
     
-
+  
       <div class="person-box">
+      <div class="vl-front-2"></div>
       <p class="the-x" >X</p>
         <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">
         <h2>the person</h2>
