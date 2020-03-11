@@ -20,6 +20,7 @@ get_header(); ?>
 
     <div class="front-nav">
       <div class="projects-box">
+      <p class="the-x">X</p>
         <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
           <h2>the projects</h2>
         </a>
@@ -27,8 +28,9 @@ get_header(); ?>
     
 
       <div class="person-box">
+      <p class="the-x" >X</p>
         <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">
-          <h2>the person</h2>
+        <h2>the person</h2>
         </a>
       </div>
     </div> <!-- end front nav --> 
