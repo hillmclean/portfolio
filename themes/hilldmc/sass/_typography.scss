@@ -19,6 +19,13 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
+.front-title {
+	font-family: $font__secondary;
+	color: $color__text-secondary;
+	font-size: 2rem;
+	letter-spacing: 5px;
+}
+
 /* Copy */
 
 p {

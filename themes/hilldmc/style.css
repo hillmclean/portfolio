@@ -243,6 +243,12 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+.front-title {
+  font-family: "Kavivanar", cursive;
+  color: #FEBB98;
+  font-size: 2rem;
+  letter-spacing: 5px; }
+
 /* Copy */
 p {
   margin-bottom: 1.5rem; }
