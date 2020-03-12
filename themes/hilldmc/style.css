@@ -735,16 +735,16 @@ object {
   font-size: 3rem;
   color: #24F595;
   position: absolute;
-  top: -640px;
+  top: -700px;
   left: 10px;
   font-family: "Kavivanar", cursive; }
 
 .vl-front-1 {
   border-left: 2px solid #FEBB98;
-  height: 600px;
+  height: 670px;
   width: 2px;
   position: absolute;
-  top: -520px; }
+  top: -590px; }
 
 .person-box {
   position: relative; }
@@ -768,14 +768,14 @@ object {
   font-size: 3rem;
   color: #24F595;
   position: absolute;
-  top: -460px;
+  top: -565px;
   left: 265px;
   font-family: "Kavivanar", cursive; }
 
 .vl-front-2 {
   border-left: 2px solid #FEBB98;
-  height: 500px;
+  height: 600px;
   width: 2px;
   position: absolute;
-  top: -350px;
+  top: -450px;
   left: 280px; }
