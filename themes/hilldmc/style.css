@@ -698,12 +698,12 @@ object {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 10rem;
-  height: 20rem;
-  margin: 2rem 0rem 8rem 7rem; }
+  height: 50vh;
+  margin: 2rem 0rem 0rem 7rem; }
 
 .red-box-front {
   width: 100%;
-  height: 20vh;
+  height: 40vh;
   background-color: #BF6767; }
 
 .front-nav {
@@ -731,12 +731,20 @@ object {
   left: 10px;
   font-family: "Kavivanar", cursive; }
 
+.the-x-1-t {
+  font-size: 3rem;
+  color: #24F595;
+  position: absolute;
+  top: -640px;
+  left: 10px;
+  font-family: "Kavivanar", cursive; }
+
 .vl-front-1 {
   border-left: 2px solid #FEBB98;
-  height: 700px;
+  height: 600px;
   width: 2px;
   position: absolute;
-  top: -630px; }
+  top: -520px; }
 
 .person-box {
   position: relative; }
@@ -746,20 +754,28 @@ object {
 .person-h2 {
   position: absolute;
   top: 160px;
-  left: 150px; }
+  left: 130px; }
 
 .the-x-2 {
   font-size: 3rem;
   color: #24F595;
   position: absolute;
   top: 100px;
-  left: 285px;
+  left: 265px;
+  font-family: "Kavivanar", cursive; }
+
+.the-x-2-t {
+  font-size: 3rem;
+  color: #24F595;
+  position: absolute;
+  top: -460px;
+  left: 265px;
   font-family: "Kavivanar", cursive; }
 
 .vl-front-2 {
   border-left: 2px solid #FEBB98;
-  height: 650px;
+  height: 500px;
   width: 2px;
   position: absolute;
-  top: -500px;
-  left: 300px; }
+  top: -350px;
+  left: 280px; }

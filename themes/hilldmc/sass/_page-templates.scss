@@ -10,13 +10,13 @@
   justify-content: flex-end;
   align-items: flex-end;
   width: 10rem;
-  height: 20rem;
-  margin: 2rem 0rem 8rem 7rem;
+  height: 50vh;
+  margin: 2rem 0rem 0rem 7rem;
 }
 
 .red-box-front {
   width: 100%;
-  height: 20vh;
+  height: 40vh;
   background-color: $color__secondary;
 }
 
@@ -51,12 +51,21 @@
   font-family: $font__secondary;
 }
 
+.the-x-1-t {
+  font-size: 3rem;
+  color: $color__accent;
+  position: absolute;
+  top: -640px;
+  left: 10px;
+  font-family: $font__secondary;
+}
+
 .vl-front-1 {
   border-left: 2px solid $color__text-secondary;
-  height: 700px;
+  height: 600px;
   width: 2px;
   position: absolute;
-  top: -630px;
+  top: -520px;
 }
 
 // the person
@@ -72,7 +81,7 @@
 .person-h2 {
   position: absolute;
   top: 160px;
-  left: 150px;
+  left: 130px;
 }
 
 .the-x-2 {
@@ -80,15 +89,24 @@
   color: $color__accent;
   position: absolute;
   top: 100px;
-  left: 285px;
+  left: 265px;
+  font-family: $font__secondary;
+}
+
+.the-x-2-t {
+  font-size: 3rem;
+  color: $color__accent;
+  position: absolute;
+  top: -460px;
+  left: 265px;
   font-family: $font__secondary;
 }
 
 .vl-front-2 {
   border-left: 2px solid $color__text-secondary;
-  height: 650px;
+  height: 500px;
   width: 2px;
   position: absolute;
-  top: -500px;
-  left: 300px;
+  top: -350px;
+  left: 280px;
 }

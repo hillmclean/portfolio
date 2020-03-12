@@ -21,6 +21,7 @@ get_header(); ?>
     <div class="front-nav">
       
       <div class="projects-box">
+      <p class="the-x-1-t">X</p>
         <div class="vl-front-1"></div>
         <p class="the-x-1">X</p>
           <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
@@ -29,6 +30,7 @@ get_header(); ?>
       </div>
   
       <div class="person-box">
+      <p class="the-x-2-t">X</p>
       <div class="vl-front-2"></div>
       <p class="the-x-2" >X</p>
         <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">
