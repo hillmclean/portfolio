@@ -21,19 +21,18 @@ get_header(); ?>
     <div class="front-nav">
       
       <div class="projects-box">
-      <div class="vl-front-1"></div>
-      <p class="the-x">X</p>
-        <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
-          <h2>the projects</h2>
-        </a>
+        <div class="vl-front-1"></div>
+        <p class="the-x-1">X</p>
+          <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
+            <h2 class="project-h2">the projects</h2>
+          </a>
       </div>
-    
   
       <div class="person-box">
       <div class="vl-front-2"></div>
-      <p class="the-x" >X</p>
+      <p class="the-x-2" >X</p>
         <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">
-        <h2>the person</h2>
+        <h2 class="person-h2">the person</h2>
         </a>
       </div>
     </div> <!-- end front nav --> 

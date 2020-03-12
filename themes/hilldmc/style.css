@@ -712,36 +712,33 @@ object {
   height: 55vh;
   background-color: #FFFFFF; }
 
-.the-x {
-  font-size: 1.5rem;
-  color: #24F595; }
-
 .projects-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 3rem;
   padding-left: 1.5rem;
   position: relative; }
-  .projects-box h2 {
-    margin-left: 1.5rem; }
+
+.project-h2 {
+  position: absolute;
+  top: 88px;
+  left: 30px;
+  margin-left: 1.5rem; }
+
+.the-x-1 {
+  font-size: 3rem;
+  color: #24F595;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  font-family: "Kavivanar", cursive; }
+
+.vl-front-1 {
+  border-left: 2px solid #FEBB98;
+  height: 700px;
+  width: 2px;
+  position: absolute;
+  top: -630px; }
 
 .person-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-right: 1.5rem;
@@ -749,18 +746,23 @@ object {
   .person-box h2 {
     margin-left: 1.5rem; }
 
-.vl-front-1 {
-  border-left: 2px solid #FEBB98;
-  height: 700px;
-  width: 1px;
+.person-h2 {
   position: absolute;
-  top: -600px;
-  left: 55px; }
+  top: 210px;
+  left: 150px; }
+
+.the-x-2 {
+  font-size: 3rem;
+  color: #24F595;
+  position: absolute;
+  top: 150px;
+  left: 285px;
+  font-family: "Kavivanar", cursive; }
 
 .vl-front-2 {
   border-left: 2px solid #FEBB98;
-  height: 500px;
-  width: 1px;
-  position: absolute;
-  top: -400px;
-  left: 500px; }
+  height: 650px;
+  width: 2px;
+  position: relative;
+  top: -500px;
+  left: 300px; }

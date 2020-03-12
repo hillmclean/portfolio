@@ -27,28 +27,41 @@
   background-color: $color__main;
 }
 
-.the-x {
-  font-size: 1.5rem;
-  color: $color__accent;
-}
+// the projects
 
 .projects-box {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   padding-top: $base__space-unit * 2;
   padding-left: $base__space-unit;
   position: relative;
-
-  h2 {
-    margin-left: $base__space-unit;
-  }
 }
 
+.project-h2 {
+  position: absolute;
+  top: 88px;
+  left: 30px;
+  margin-left: $base__space-unit;
+}
+
+.the-x-1 {
+  font-size: 3rem;
+  color: $color__accent;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  font-family: $font__secondary;
+}
+
+.vl-front-1 {
+  border-left: 2px solid $color__text-secondary;
+  height: 700px;
+  width: 2px;
+  position: absolute;
+  top: -630px;
+}
+
+// the person
+
 .person-box {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   padding-top: $base__space-unit * 2;
   padding-bottom: $base__space-unit * 2;
   padding-right: $base__space-unit;
@@ -59,21 +72,26 @@
   }
 }
 
-.vl-front-1 {
-  border-left: 2px solid $color__text-secondary;
-  height: 700px;
-  width: 1px;
+.person-h2 {
   position: absolute;
-  top: -600px;
-  left: 55px;
+  top: 210px;
+  left: 150px;
 }
 
+.the-x-2 {
+  font-size: 3rem;
+  color: $color__accent;
+  position: absolute;
+  top: 150px;
+  left: 285px;
+  font-family: $font__secondary;
+}
 
 .vl-front-2 {
   border-left: 2px solid $color__text-secondary;
-  height: 500px;
-  width: 1px;
-  position: absolute;
-  top: -400px;
-  left: 500px;
+  height: 650px;
+  width: 2px;
+  position: relative;
+  top: -500px;
+  left: 300px;
 }
