@@ -249,6 +249,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
   letter-spacing: 5px; }
 
+h1 {
+  font-family: "Kavivanar", cursive;
+  color: #FEBB98; }
+
 h2 {
   font-weight: 400;
   font-size: 1rem; }
@@ -682,6 +686,9 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth; }
+
 /* Front page */
 .title-box {
   display: -webkit-box;
@@ -715,11 +722,12 @@ object {
 
 .follow {
   position: absolute;
-  left: 253px;
+  left: 261px;
   top: 160px;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  color: #FEBB98; }
+  color: #FEBB98;
+  font-size: .8rem; }
 
 .projects-box {
   padding-top: 3rem;
@@ -747,13 +755,17 @@ object {
   top: -700px;
   left: 10px;
   font-family: "Kavivanar", cursive; }
+  .the-x-1-t:visited {
+    color: #24F595; }
+  .the-x-1-t:hover {
+    color: #BF6767; }
 
 .vl-front-1 {
   border-left: 2px solid #FEBB98;
-  height: 670px;
+  height: 710px;
   width: 2px;
   position: absolute;
-  top: -590px; }
+  top: -630px; }
 
 .person-box {
   position: relative; }
@@ -775,11 +787,14 @@ object {
 
 .the-x-2-t {
   font-size: 3rem;
-  color: #24F595;
   position: absolute;
-  top: -565px;
+  top: -515px;
   left: 265px;
   font-family: "Kavivanar", cursive; }
+  .the-x-2-t:visited {
+    color: #24F595; }
+  .the-x-2-t:hover {
+    color: #BF6767; }
 
 .vl-front-2 {
   border-left: 2px solid #FEBB98;
@@ -788,3 +803,15 @@ object {
   position: absolute;
   top: -450px;
   left: 280px; }
+
+/* Headers */
+.page-header-projects {
+  height: 20vh; }
+
+/* Projects Page */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem; }

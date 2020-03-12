@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
 
 /* Front page */
 
@@ -30,10 +33,11 @@
 
 .follow {
  position: absolute;
- left: 253px;
+ left: 261px;
  top: 160px;
  transform: rotate(90deg);
  color: $color__text-secondary;
+ font-size: .8rem;
 }
 
 // the projects
@@ -67,14 +71,22 @@
   top: -700px;
   left: 10px;
   font-family: $font__secondary;
+
+  &:visited {
+    color: $color__accent;
+    }
+
+  &:hover {
+    color: $color__link-hover;
+  }
 }
 
 .vl-front-1 {
   border-left: 2px solid $color__text-secondary;
-  height: 670px;
+  height: 710px;
   width: 2px;
   position: absolute;
-  top: -590px;
+  top: -630px;
 }
 
 // the person
@@ -104,11 +116,16 @@
 
 .the-x-2-t {
   font-size: 3rem;
-  color: $color__accent;
   position: absolute;
-  top: -565px;
+  top: -515px;
   left: 265px;
   font-family: $font__secondary;
+  &:visited {
+  color: $color__accent;
+  }
+  &:hover {
+    color: $color__link-hover;
+  }
 }
 
 .vl-front-2 {
@@ -118,4 +135,20 @@
   position: absolute;
   top: -450px;
   left: 280px;
+}
+
+/* Headers */
+
+.page-header-projects {
+  height: 20vh;
+}
+
+/* Projects Page */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
 }

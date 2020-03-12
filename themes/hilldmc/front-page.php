@@ -22,20 +22,20 @@ get_header(); ?>
     <div class="front-nav">
       
       <div class="projects-box">
-      <p class="the-x-1-t">X</p>
+      <a href="#the-projects" class="the-x-1-t">X</a>
         <div class="vl-front-1"></div>
-        <p class="the-x-1">X</p>
           <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
-            <h2 class="project-h2">the projects</h2>
+          <p class="the-x-1">X</p>  
+          <h2 id="the-projects" class="project-h2">the projects</h2>
           </a>
       </div>
   
       <div class="person-box">
-      <p class="the-x-2-t">X</p>
+      <a href="#the-person" class="the-x-2-t">X</a>
       <div class="vl-front-2"></div>
-      <p class="the-x-2" >X</p>
         <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" rel="about">
-        <h2 class="person-h2">the person</h2>
+        <p class="the-x-2" >X</p>
+        <h2 id="the-person" class="person-h2">the person</h2>
         </a>
       </div>
     </div> <!-- end front nav --> 
