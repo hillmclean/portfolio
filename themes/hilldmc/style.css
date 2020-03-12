@@ -699,11 +699,11 @@ object {
           align-items: flex-end;
   width: 10rem;
   height: 20rem;
-  margin: 2rem 0rem 2rem 7rem; }
+  margin: 2rem 0rem 8rem 7rem; }
 
 .red-box-front {
   width: 100%;
-  height: 40vh;
+  height: 20vh;
   background-color: #BF6767; }
 
 .front-nav {
@@ -739,23 +739,20 @@ object {
   top: -630px; }
 
 .person-box {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-right: 1.5rem;
   position: relative; }
   .person-box h2 {
     margin-left: 1.5rem; }
 
 .person-h2 {
   position: absolute;
-  top: 210px;
+  top: 160px;
   left: 150px; }
 
 .the-x-2 {
   font-size: 3rem;
   color: #24F595;
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 285px;
   font-family: "Kavivanar", cursive; }
 
@@ -763,6 +760,6 @@ object {
   border-left: 2px solid #FEBB98;
   height: 650px;
   width: 2px;
-  position: relative;
+  position: absolute;
   top: -500px;
   left: 300px; }
