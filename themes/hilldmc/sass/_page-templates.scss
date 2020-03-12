@@ -16,8 +16,9 @@
 
 .red-box-front {
   width: 100%;
-  height: 40vh;
+  height: 300px;
   background-color: $color__secondary;
+  position: relative;
 }
 
 .front-nav {
@@ -25,6 +26,14 @@
   width: 100%;
   height: 55vh;
   background-color: $color__main;
+}
+
+.follow {
+ position: absolute;
+ left: 253px;
+ top: 160px;
+ transform: rotate(90deg);
+ color: $color__text-secondary;
 }
 
 // the projects

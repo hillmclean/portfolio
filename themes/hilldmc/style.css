@@ -703,14 +703,23 @@ object {
 
 .red-box-front {
   width: 100%;
-  height: 40vh;
-  background-color: #BF6767; }
+  height: 300px;
+  background-color: #BF6767;
+  position: relative; }
 
 .front-nav {
   padding: 1.5rem;
   width: 100%;
   height: 55vh;
   background-color: #FFFFFF; }
+
+.follow {
+  position: absolute;
+  left: 253px;
+  top: 160px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #FEBB98; }
 
 .projects-box {
   padding-top: 3rem;

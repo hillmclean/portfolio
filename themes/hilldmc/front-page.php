@@ -16,6 +16,7 @@ get_header(); ?>
 
 
     <div class="red-box-front">
+      <p class="follow">follow me...</p>
     </div>
 
     <div class="front-nav">
