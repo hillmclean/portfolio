@@ -141,18 +141,33 @@ html {
 
 .page-header-projects {
   height: 20vh;
+  background-color: $color__background-body;
+  margin-bottom: $base__space-unit * 2;
 }
 
 /* Projects Page */
 
+.site-main-projects {
+  background-color: $color__main;
+  padding-bottom: $base__space-unit;
+}
+
 .projects-grid {
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-left:auto;
+  margin-right: auto;
+  width: 75%;
+
+  @include desktop { 
   grid-template-columns: repeat(2, 1fr);
   column-gap: $base__space-unit;
-  row-gap: $base__space-unit * 2 ;
+  row-gap: $base__space-unit * 4 ;
   margin-left:auto;
   margin-right: auto;
   width: $width__fixed;
+  margin-bottom: $base__space-unit * 3;
+  }
 }
 
 .project-img {
