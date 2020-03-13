@@ -13,7 +13,9 @@ get_header(); ?>
 	
 
 			<header class="page-header-projects">
-				<h1>the projects</h1>
+				<div class="header-box">
+					<h1>the projects</h1>
+				</div>
 			</header>
 
 				<?php

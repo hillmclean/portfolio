@@ -806,9 +806,28 @@ html {
 
 /* Headers */
 .page-header-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   height: 20vh;
   background-color: #000000;
   margin-bottom: 3rem; }
+
+.header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 75%;
+  margin: 0 auto; }
 
 /* Projects Page */
 .site-main-projects {
@@ -830,7 +849,7 @@ html {
       row-gap: 6rem;
       margin-left: auto;
       margin-right: auto;
-      width: 1120px;
+      width: 75%;
       margin-bottom: 4.5rem; } }
 
 .project-img img {

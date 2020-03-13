@@ -140,9 +140,19 @@ html {
 /* Headers */
 
 .page-header-projects {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 20vh;
   background-color: $color__background-body;
   margin-bottom: $base__space-unit * 2;
+}
+
+.header-box {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+  margin: 0 auto;
 }
 
 /* Projects Page */
@@ -165,7 +175,7 @@ html {
   row-gap: $base__space-unit * 4 ;
   margin-left:auto;
   margin-right: auto;
-  width: $width__fixed;
+  width: 75%;
   margin-bottom: $base__space-unit * 3;
   }
 }
