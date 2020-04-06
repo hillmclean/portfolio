@@ -13,6 +13,8 @@ get_header(); ?>
 	
 
 			<header class="page-header-projects">
+					<a href="#" class="the-x-1-p">X</a>
+						<div class="vl-home-1"></div>
 				<div class="header-box">
 					<h1>the projects</h1>
 				</div>
