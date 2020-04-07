@@ -37,11 +37,10 @@ get_header(); ?>
 			
 
 			<div class="project-info">
-					<a href="<?php the_permalink()?>">
 					<h2><?php the_title() ?></h2>
 					</a>
 					<p><?php the_content() ?></p>
-				<a class="button" href="<?php the_permalink()?>">View Repo</a>
+				<a class="button" href="<?php the_field('link')?>" target="_blank">View Repo</a>
 			</div>
 
 			<div class="project-img">

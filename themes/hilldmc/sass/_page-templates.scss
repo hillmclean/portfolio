@@ -161,6 +161,9 @@ html {
 
 .home-nav {
   position: relative;
+  &:hover {
+    content: "hi there";
+  }
 }
 
 .header-box { 
@@ -219,6 +222,11 @@ html {
 .project-info {
   h2 {
     margin-top: 0px;
+    color: $color__background-body;
+    font-style: italic;
+    font-size: 1.2rem;
+    border-bottom: 2px solid $color__text-secondary;
+    padding: 0.5rem;
   }
 }
 
