@@ -809,36 +809,42 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 20vh;
   background-color: #000000;
   margin-bottom: 3rem; }
 
 .page-header-container {
-  max-width: 1080px;
-  position: relative;
-  margin: 0 auto; }
-
-.header-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
   margin: 0 auto; }
+  @media screen and (min-width: 1080px) {
+    .page-header-container {
+      max-width: 1080px; } }
+
+.home-nav {
+  position: relative; }
+
+.header-box h1 {
+  font-size: 2.5rem;
+  margin: 0px; }
 
 .the-x-1-p {
   font-size: 3rem;
   position: absolute;
-  top: 10px;
-  left: -900px;
+  top: 0px;
+  left: 10px;
   font-family: "Kavivanar", cursive; }
   .the-x-1-p:visited {
     color: #24F595; }
@@ -848,10 +854,10 @@ html {
 .vl-home-1 {
   border-bottom: 2px solid #FEBB98;
   height: 10px;
-  width: 200px;
+  width: 300px;
   position: absolute;
-  top: 35px;
-  left: -860px; }
+  top: 24px;
+  left: -300px; }
 
 .site-main-projects {
   background-color: #FFFFFF;
@@ -866,16 +872,25 @@ html {
   @media screen and (min-width: 1080px) {
     .projects-grid {
       grid-template-columns: repeat(2, 1fr);
-      -webkit-column-gap: 1.5rem;
-         -moz-column-gap: 1.5rem;
-              column-gap: 1.5rem;
+      -webkit-column-gap: 4rem;
+         -moz-column-gap: 4rem;
+              column-gap: 4rem;
       row-gap: 6rem;
       margin-left: auto;
       margin-right: auto;
       max-width: 1080px;
       margin-bottom: 4.5rem; } }
 
+.project-info h2 {
+  margin-top: 0px; }
+
 .project-img img {
   -webkit-box-shadow: 10px 10px #24F595;
           box-shadow: 10px 10px #24F595;
   border: 2px solid #24F595; }
+
+.button {
+  width: 10rem;
+  height: 5rem;
+  background-color: #24F595;
+  padding: .5rem 2rem .5rem 2rem; }

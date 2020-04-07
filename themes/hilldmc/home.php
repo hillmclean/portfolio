@@ -14,8 +14,10 @@ get_header(); ?>
 
 			<header class="page-header-projects">
 				<div class="page-header-container">
-					<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
-					<div class="vl-home-1"></div>
+					<div class ="home-nav">
+						<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
+						<div class="vl-home-1"></div>
+					</div>
 					<div class="header-box">
 						<h1>the projects</h1>
 					</div>
@@ -39,8 +41,7 @@ get_header(); ?>
 					<h2><?php the_title() ?></h2>
 					</a>
 					<p><?php the_content() ?></p>
-				<button class="journal-button"><a class="button-text" href="<?php the_permalink()?>">Read Entry</a>
-				</button>
+				<a class="button" href="<?php the_permalink()?>">View Repo</a>
 			</div>
 
 			<div class="project-img">
