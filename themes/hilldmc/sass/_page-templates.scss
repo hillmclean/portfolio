@@ -144,9 +144,15 @@ html {
   justify-content: flex-end;
   align-items: flex-end;
   height: 20vh;
-  position: relative;
   background-color: $color__background-body;
   margin-bottom: $base__space-unit * 2;
+}
+
+.page-header-container {
+  max-width: $desktop;
+  position: relative;
+  margin: 0 auto;
+
 }
 
 .header-box {
@@ -197,7 +203,7 @@ html {
   row-gap: $base__space-unit * 4 ;
   margin-left:auto;
   margin-right: auto;
-  width: 75%;
+  max-width: $desktop;
   margin-bottom: $base__space-unit * 3;
   }
 }

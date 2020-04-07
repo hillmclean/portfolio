@@ -816,9 +816,13 @@ html {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 20vh;
-  position: relative;
   background-color: #000000;
   margin-bottom: 3rem; }
+
+.page-header-container {
+  max-width: 1080px;
+  position: relative;
+  margin: 0 auto; }
 
 .header-box {
   display: -webkit-box;
@@ -868,7 +872,7 @@ html {
       row-gap: 6rem;
       margin-left: auto;
       margin-right: auto;
-      width: 75%;
+      max-width: 1080px;
       margin-bottom: 4.5rem; } }
 
 .project-img img {
