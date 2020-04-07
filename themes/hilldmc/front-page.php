@@ -24,7 +24,7 @@ get_header(); ?>
       <div class="projects-box">
       <a href="#the-projects" class="the-x-1-t">X</a>
         <div class="vl-front-1"></div>
-          <a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" rel="portfolio">
+          <a href="<?php echo esc_url( home_url( '/projects' ) ); ?>" rel="projects">
           <p class="the-x-1">X</p>  
           <h2 id="the-projects" class="project-h2">the projects</h2>
           </a>

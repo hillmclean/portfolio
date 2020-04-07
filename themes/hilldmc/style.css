@@ -722,7 +722,7 @@ html {
 
 .follow {
   position: absolute;
-  left: 261px;
+  left: 267px;
   top: 160px;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -804,7 +804,7 @@ html {
   top: -450px;
   left: 280px; }
 
-/* Headers */
+/* Projects Page */
 .page-header-projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -816,6 +816,7 @@ html {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 20vh;
+  position: relative;
   background-color: #000000;
   margin-bottom: 3rem; }
 
@@ -826,10 +827,28 @@ html {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 75%;
+  width: 100%;
   margin: 0 auto; }
 
-/* Projects Page */
+.the-x-1-p {
+  font-size: 3rem;
+  position: absolute;
+  top: 10px;
+  left: -900px;
+  font-family: "Kavivanar", cursive; }
+  .the-x-1-p:visited {
+    color: #24F595; }
+  .the-x-1-p:hover {
+    color: #BF6767; }
+
+.vl-home-1 {
+  border-bottom: 2px solid #FEBB98;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  top: 35px;
+  left: -860px; }
+
 .site-main-projects {
   background-color: #FFFFFF;
   padding-bottom: 1.5rem; }

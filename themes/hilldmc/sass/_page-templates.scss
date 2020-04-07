@@ -33,7 +33,7 @@ html {
 
 .follow {
  position: absolute;
- left: 261px;
+ left: 267px;
  top: 160px;
  transform: rotate(90deg);
  color: $color__text-secondary;
@@ -137,13 +137,14 @@ html {
   left: 280px;
 }
 
-/* Headers */
+/* Projects Page */
 
 .page-header-projects {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   height: 20vh;
+  position: relative;
   background-color: $color__background-body;
   margin-bottom: $base__space-unit * 2;
 }
@@ -151,34 +152,32 @@ html {
 .header-box {
   display: flex;
   justify-content: flex-end;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
 }
 
-// .the-x-1-p {
-//   font-size: 3rem;
-//   position: absolute;
-//   top: 10px;
-//   left: 265px;
-//   font-family: $font__secondary;
-//   &:visited {
-//   color: $color__accent;
-//   }
-//   &:hover {
-//     color: $color__link-hover;
-//   }
-// }
+.the-x-1-p {
+  font-size: 3rem;
+  position: absolute;
+  top: 10px;
+  left: -900px;
+  font-family: $font__secondary;
+  &:visited {
+  color: $color__accent;
+  }
+  &:hover {
+    color: $color__link-hover;
+  }
+}
 
-// .vl-home-1 {
-//   border-bottom: 2px solid $color__text-secondary;
-//   height: 10px;
-//   width: 200px;
-//   position: absolute;
-//   top: 10px;
-//   left: 280px;
-// }
-
-/* Projects Page */
+.vl-home-1 {
+  border-bottom: 2px solid $color__text-secondary;
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  top: 35px;
+  left: -860px;
+}
 
 .site-main-projects {
   background-color: $color__main;

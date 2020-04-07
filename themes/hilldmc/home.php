@@ -13,10 +13,12 @@ get_header(); ?>
 	
 
 			<header class="page-header-projects">
-					<a href="#" class="the-x-1-p">X</a>
-						<div class="vl-home-1"></div>
-				<div class="header-box">
-					<h1>the projects</h1>
+				<div class ="projects-header-box">
+					<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
+					<div class="vl-home-1"></div>
+					<div class="header-box">
+						<h1>the projects</h1>
+					</div>
 				</div>
 			</header>
 
@@ -52,5 +54,3 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-<?php get_footer(); ?>
