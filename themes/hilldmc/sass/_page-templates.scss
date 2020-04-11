@@ -184,6 +184,15 @@ html {
   }
   &:hover {
     color: $color__link-hover;
+      &:before {
+        content: "home...";
+        position: absolute;
+        top: 16px;
+        left: -65px;
+        color: $color__text-secondary;
+        font-family: $font__main;
+        font-size: .8rem;
+      }
   }
 }
 

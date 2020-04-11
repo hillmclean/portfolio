@@ -852,6 +852,14 @@ html {
     color: #24F595; }
   .the-x-1-p:hover {
     color: #BF6767; }
+    .the-x-1-p:hover:before {
+      content: "home...";
+      position: absolute;
+      top: 16px;
+      left: -65px;
+      color: #FEBB98;
+      font-family: "B612 Mono", monospace;
+      font-size: .8rem; }
 
 .vl-home-1 {
   border-bottom: 2px solid #FEBB98;
