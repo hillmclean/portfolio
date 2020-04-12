@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<header class="page-header-projects">
+		<header class="page-header-about">
 				<div class="page-header-container">
 					<div class ="home-nav">
 						<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
@@ -33,9 +33,9 @@ get_header(); ?>
 			<div class="contact-container">
 				<h3>know me better</h3>
 				<div class="social-icons">
-					<a href="https://www.linkedin.com/in/hillarydmclean" target="_blank"><i class="fab fa-linkedin"></i></a>
-					<a href="https://github.com/hillmclean" target="_blank"><i class="fab fa-github-square"></i></a>
-					<a href="mailto:hillary@hilldmc.com" target="_blank"><i class="fas fa-envelope"></i></a>
+					<a class="linkedin" href="https://www.linkedin.com/in/hillarydmclean" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a class="github" href="https://github.com/hillmclean" target="_blank"><i class="fab fa-github-square"></i></a>
+					<a class="mail" href="mailto:hillary@hilldmc.com" target="_blank"><i class="fas fa-envelope"></i></a>
 				</div>
 			</div>
 		</div>

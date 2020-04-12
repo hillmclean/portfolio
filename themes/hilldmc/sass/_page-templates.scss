@@ -318,8 +318,21 @@ html {
 
  /* ABOUT PAGE */
 
+ .page-header-about {
+  display: flex;
+  align-items: center;
+   height: 20vh;
+   background-color: white;
+   margin-bottom: $base__space-unit * 2;
+
+   h1 {
+     color: $color__secondary;
+   }
+ }
+
  .entry-content {
    max-width: $desktop;
+   width: 75%;
    margin: 0 auto;
    padding-bottom: 3rem;
    h2 {
@@ -388,13 +401,22 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  a{
+  .linkedin {
     color: white;
     &:hover {
-      color: $color__accent; 
+      color: $color__accent;
     }
-    &:visited {
-      color: white;
+  }
+  .github {
+    color: white;
+    &:hover {
+      color: $color__accent;
+    }
+  }
+  .mail {
+    color: white;
+    &:hover {
+    color: $color__accent;
     }
   }
 }

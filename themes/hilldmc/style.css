@@ -973,8 +973,22 @@ html {
   font-size: 11px; }
 
 /* ABOUT PAGE */
+.page-header-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20vh;
+  background-color: white;
+  margin-bottom: 3rem; }
+  .page-header-about h1 {
+    color: #BF6767; }
+
 .entry-content {
   max-width: 1080px;
+  width: 75%;
   margin: 0 auto;
   padding-bottom: 3rem; }
   .entry-content h2 {
@@ -1053,9 +1067,15 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .social-icons a {
+  .social-icons .linkedin {
     color: white; }
-    .social-icons a:hover {
+    .social-icons .linkedin:hover {
       color: #24F595; }
-    .social-icons a:visited {
-      color: white; }
+  .social-icons .github {
+    color: white; }
+    .social-icons .github:hover {
+      color: #24F595; }
+  .social-icons .mail {
+    color: white; }
+    .social-icons .mail:hover {
+      color: #24F595; }
