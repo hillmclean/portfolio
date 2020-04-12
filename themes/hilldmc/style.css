@@ -974,7 +974,7 @@ html {
 
 /* ABOUT PAGE */
 .entry-content {
-  width: 78%;
+  max-width: 1080px;
   margin: 0 auto;
   padding-bottom: 3rem; }
   .entry-content h2 {
@@ -1010,6 +1010,12 @@ html {
           left: -98px; } }
 
 .contact-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #BF6767;
   width: 100%;
   height: 25vh;
@@ -1026,10 +1032,15 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 78%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1080px;
   margin: 0 auto;
   font-family: "Kavivanar", cursive;
   font-size: 1.5rem; }
+  .contact-container h3 {
+    margin-top: 0px; }
 
 .social-icons {
   width: 10rem;
@@ -1038,4 +1049,13 @@ html {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .social-icons a {
+    color: white; }
+    .social-icons a:hover {
+      color: #24F595; }
+    .social-icons a:visited {
+      color: white; }

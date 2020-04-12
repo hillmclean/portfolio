@@ -34,8 +34,8 @@ get_header(); ?>
 				<h3>know me better</h3>
 				<div class="social-icons">
 					<a href="https://www.linkedin.com/in/hillarydmclean" target="_blank"><i class="fab fa-linkedin"></i></a>
-					<i class="fab fa-github-square"></i>
-					<i class="fas fa-envelope"></i>
+					<a href="https://github.com/hillmclean" target="_blank"><i class="fab fa-github-square"></i></a>
+					<a href="mailto:hillary@hilldmc.com" target="_blank"><i class="fas fa-envelope"></i></a>
 				</div>
 			</div>
 		</div>
