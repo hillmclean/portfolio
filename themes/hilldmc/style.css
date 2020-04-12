@@ -967,3 +967,49 @@ html {
   height: 5rem;
   background-color: #24F595;
   padding: .5rem 2rem .5rem 2rem; }
+
+.site-info {
+  text-align: center;
+  font-size: 11px; }
+
+/* ABOUT PAGE */
+.entry-content {
+  width: 78%;
+  margin: 0 auto; }
+  .entry-content h2 {
+    font-size: 1.5rem;
+    color: #24F595; }
+
+.the-x-2-a {
+  font-size: 3rem;
+  position: absolute;
+  top: 79px;
+  left: 243px;
+  font-family: "Kavivanar", cursive; }
+  @media screen and (min-width: 1080px) {
+    .the-x-2-a {
+      top: 0px;
+      left: 10px; } }
+  .the-x-2-a:visited {
+    color: #24F595; }
+  .the-x-2-a:hover {
+    color: #BF6767; }
+    .the-x-2-a:hover:before {
+      content: "...projects";
+      position: absolute;
+      top: 31px;
+      left: -98px;
+      color: #FEBB98;
+      font-family: "B612 Mono", monospace;
+      font-size: .8rem;
+      font-style: italic; }
+      @media screen and (min-width: 1080px) {
+        .the-x-2-a:hover:before {
+          top: 16px;
+          left: -98px; } }
+
+.contact-box {
+  background-color: #BF6767;
+  width: 100%;
+  height: 25vh;
+  color: white; }
