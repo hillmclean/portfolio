@@ -32,9 +32,11 @@ get_header(); ?>
 		<div class="contact-box">
 			<div class="contact-container">
 				<h3>know me better</h3>
-				<i class="fab fa-linkedin"></i>
-				<i class="fab fa-github-square"></i>
-				<i class="fas fa-envelope"></i>
+				<div class="social-icons">
+					<a href="https://www.linkedin.com/in/hillarydmclean" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<i class="fab fa-github-square"></i>
+					<i class="fas fa-envelope"></i>
+				</div>
 			</div>
 		</div>
 		</main><!-- #main -->
