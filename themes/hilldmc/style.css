@@ -449,9 +449,10 @@ a {
 
 /* Menus */
 .main-navigation {
-  clear: both;
-  display: block;
-  float: left;
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%; }
   .main-navigation ul {
     display: none;
@@ -822,9 +823,9 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -842,85 +843,74 @@ html {
               justify-content: space-between; } }
 
 .home-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 1rem;
   position: relative; }
-  .home-nav:hover {
-    content: "hi there"; }
 
 .header-box h1 {
   font-size: 2.5rem;
-  margin-bottom: 6rem; }
-  @media screen and (min-width: 1080px) {
-    .header-box h1 {
-      margin: 0px; } }
+  margin: 0px; }
 
 .the-x-1-p {
-  font-size: 3rem;
-  position: absolute;
-  top: 79px;
-  left: 0px;
-  font-family: "Kavivanar", cursive; }
-  @media screen and (min-width: 1080px) {
-    .the-x-1-p {
-      top: 0px;
-      left: -343px; } }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  font-family: "Kavivanar", cursive;
+  margin-right: 5rem; }
   .the-x-1-p:visited {
     color: #24F595; }
   .the-x-1-p:hover {
     color: #BF6767; }
-    .the-x-1-p:hover:before {
-      content: "home...";
-      position: absolute;
-      top: 31px;
-      left: 38px;
-      color: #FEBB98;
-      font-family: "B612 Mono", monospace;
-      font-size: .8rem;
-      font-style: italic; }
-      @media screen and (min-width: 1080px) {
-        .the-x-1-p:hover:before {
-          top: 16px;
-          left: 43px; } }
+  .the-x-1-p:after {
+    content: "home";
+    font-family: "B612 Mono", monospace;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: .5rem; }
 
 .the-x-2-p {
-  font-size: 3rem;
-  position: absolute;
-  top: 79px;
-  left: 243px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
   font-family: "Kavivanar", cursive; }
-  @media screen and (min-width: 1080px) {
-    .the-x-2-p {
-      top: 0px;
-      left: 10px; } }
   .the-x-2-p:visited {
     color: #24F595; }
   .the-x-2-p:hover {
     color: #BF6767; }
-    .the-x-2-p:hover:before {
-      content: "...about me";
-      position: absolute;
-      top: 31px;
-      left: -98px;
-      color: #FEBB98;
-      font-family: "B612 Mono", monospace;
-      font-size: .8rem;
-      font-style: italic; }
-      @media screen and (min-width: 1080px) {
-        .the-x-2-p:hover:before {
-          top: 16px;
-          left: -98px; } }
-
-.vl-home-1 {
-  width: 200px;
-  border-bottom: 2px solid #FEBB98;
-  position: absolute;
-  top: 110px;
-  left: 39px; }
-  @media screen and (min-width: 1080px) {
-    .vl-home-1 {
-      height: 10px;
-      width: 300px;
-      top: 24px;
-      left: -300px; } }
+  .the-x-2-p:after {
+    content: "about me";
+    font-family: "B612 Mono", monospace;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: .5rem; }
 
 .site-main-projects {
   background-color: #FFFFFF;
@@ -996,32 +986,31 @@ html {
     color: #24F595; }
 
 .the-x-2-a {
-  font-size: 3rem;
-  position: absolute;
-  top: 79px;
-  left: 243px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
   font-family: "Kavivanar", cursive; }
-  @media screen and (min-width: 1080px) {
-    .the-x-2-a {
-      top: 0px;
-      left: 10px; } }
   .the-x-2-a:visited {
     color: #24F595; }
   .the-x-2-a:hover {
     color: #BF6767; }
-    .the-x-2-a:hover:before {
-      content: "...projects";
-      position: absolute;
-      top: 31px;
-      left: -98px;
-      color: #FEBB98;
-      font-family: "B612 Mono", monospace;
-      font-size: .8rem;
-      font-style: italic; }
-      @media screen and (min-width: 1080px) {
-        .the-x-2-a:hover:before {
-          top: 16px;
-          left: -98px; } }
+  .the-x-2-a:after {
+    content: "about me";
+    font-family: "B612 Mono", monospace;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: .5rem; }
 
 .contact-box {
   display: -webkit-box;

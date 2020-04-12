@@ -150,7 +150,7 @@ html {
 
 .page-header-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-between;
   width: 75%;
   margin: 0 auto;
@@ -163,98 +163,62 @@ html {
 }
 
 .home-nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
   position: relative;
-  &:hover {
-    content: "hi there";
-  }
 }
 
 .header-box { 
   h1 {
   font-size: 2.5rem;
-  margin-bottom: 6rem;
-    @include desktop {
-      margin: 0px;
-    }
+  margin: 0px;
   }
 }
 
 .the-x-1-p {
-  font-size: 3rem;
-  position: absolute;
-  top: 79px;
-  left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
   font-family: $font__secondary;
-  @include desktop {
-    top: 0px;
-    left: -343px;
-  }
+  margin-right: 5rem;
   &:visited {
   color: $color__accent;
   }
   &:hover {
     color: $color__link-hover;
-      &:before {
-        content: "home...";
-        position: absolute;
-        top: 31px;
-        left: 38px;
-        color: $color__text-secondary;
-        font-family: $font__main;
-        font-size: .8rem;
-        font-style: italic;
-        @include desktop {
-          top: 16px;
-          left: 43px;
-        }
-      }
+  }
+  &:after {
+    content: "home";
+    font-family: $font__main;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: .5rem;
   }
 }
 
 .the-x-2-p {
-  font-size: 3rem;
-  position: absolute;
-  top: 79px;
-  left: 243px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
   font-family: $font__secondary;
-  @include desktop {
-    top: 0px;
-    left: 10px;
-  }
   &:visited {
-  color: $color__accent;
-  }
-  &:hover {
-    color: $color__link-hover;
-      &:before {
-        content: "...about me";
-        position: absolute;
-        top: 31px;
-        left: -98px;
-        color: $color__text-secondary;
-        font-family: $font__main;
-        font-size: .8rem;
-        font-style: italic;
-        @include desktop {
-          top: 16px;
-          left: -98px;
-        }
-      }
-  }
-}
-
-.vl-home-1 {
-  width: 200px;
-  border-bottom: 2px solid $color__text-secondary;
-  position: absolute;
-  top: 110px;
-  left: 39px;
-  @include desktop {
-    height: 10px;
-    width: 300px;
-    top: 24px;
-    left: -300px;
-  }
+    color: $color__accent;
+    }
+    &:hover {
+      color: $color__link-hover;
+    }
+    &:after {
+      content: "about me";
+      font-family: $font__main;
+      font-size: 0.8rem;
+      font-style: italic;
+      margin-left: .5rem;
+    }
 }
 
 .site-main-projects {
@@ -342,35 +306,25 @@ html {
  }
 
  .the-x-2-a {
-  font-size: 3rem;
-  position: absolute;
-  top: 79px;
-  left: 243px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
   font-family: $font__secondary;
-  @include desktop {
-    top: 0px;
-    left: 10px;
-  }
   &:visited {
-  color: $color__accent;
-  }
-  &:hover {
-    color: $color__link-hover;
-      &:before {
-        content: "...projects";
-        position: absolute;
-        top: 31px;
-        left: -98px;
-        color: $color__text-secondary;
-        font-family: $font__main;
-        font-size: .8rem;
-        font-style: italic;
-        @include desktop {
-          top: 16px;
-          left: -98px;
-        }
-      }
-  }
+    color: $color__accent;
+    }
+    &:hover {
+      color: $color__link-hover;
+    }
+    &:after {
+      content: "about me";
+      font-family: $font__main;
+      font-size: 0.8rem;
+      font-style: italic;
+      margin-left: .5rem;
+    }
 }
 
 .contact-box {

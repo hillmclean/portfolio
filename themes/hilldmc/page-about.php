@@ -14,7 +14,7 @@ get_header(); ?>
 				<div class="page-header-container">
 					<div class ="home-nav">
 						<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
-						<div class="vl-home-1"></div>
+						<!-- <div class="vl-home-1"></div> -->
 						<a class="the-x-2-a" href="<?php echo esc_url( home_url( '/projects' ) ); ?>">X</a>
 					</div>
 					<div class="header-box">

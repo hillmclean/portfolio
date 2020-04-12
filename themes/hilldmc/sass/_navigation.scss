@@ -27,9 +27,8 @@ a {
 /* Menus */
 
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
+	display: none;
+	justify-content: space-between;
 	width: 100%;
 
 	ul {
