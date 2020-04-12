@@ -1036,7 +1036,7 @@ html {
   .the-x-2-a:hover {
     color: #24F595; }
   .the-x-2-a:after {
-    content: "about me";
+    content: "projects";
     font-family: "B612 Mono", monospace;
     font-size: 0.8rem;
     font-style: italic;
