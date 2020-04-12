@@ -13,7 +13,7 @@ get_header(); ?>
 		<header class="page-header-about">
 				<div class="page-header-container">
 					<div class ="home-nav">
-						<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
+						<a class="the-x-1-a" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
 						<!-- <div class="vl-home-1"></div> -->
 						<a class="the-x-2-a" href="<?php echo esc_url( home_url( '/projects' ) ); ?>">X</a>
 					</div>

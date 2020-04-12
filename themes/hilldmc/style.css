@@ -974,7 +974,7 @@ html {
   background-color: white;
   margin-bottom: 3rem; }
   .page-header-about h1 {
-    color: #BF6767; }
+    color: black; }
 
 .entry-content {
   max-width: 1080px;
@@ -984,6 +984,35 @@ html {
   .entry-content h2 {
     font-size: 1.5rem;
     color: #24F595; }
+
+.the-x-1-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  font-family: "Kavivanar", cursive;
+  margin-right: 5rem;
+  color: #BF6767; }
+  .the-x-1-a:visited {
+    color: #BF6767; }
+  .the-x-1-a:hover {
+    color: #24F595; }
+  .the-x-1-a:after {
+    content: "home";
+    font-family: "B612 Mono", monospace;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: .5rem; }
 
 .the-x-2-a {
   display: -webkit-box;
@@ -1000,11 +1029,12 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 2rem;
-  font-family: "Kavivanar", cursive; }
+  font-family: "Kavivanar", cursive;
+  color: #BF6767; }
   .the-x-2-a:visited {
-    color: #24F595; }
-  .the-x-2-a:hover {
     color: #BF6767; }
+  .the-x-2-a:hover {
+    color: #24F595; }
   .the-x-2-a:after {
     content: "about me";
     font-family: "B612 Mono", monospace;

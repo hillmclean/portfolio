@@ -290,7 +290,7 @@ html {
    margin-bottom: $base__space-unit * 2;
 
    h1 {
-     color: $color__secondary;
+     color: black;
    }
  }
 
@@ -305,6 +305,30 @@ html {
    }
  }
 
+ .the-x-1-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: $font__secondary;
+  margin-right: 5rem;
+  color: $color__secondary;
+  &:visited {
+  color: $color__secondary;
+  }
+  &:hover {
+    color: $color__accent;
+  }
+  &:after {
+    content: "home";
+    font-family: $font__main;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: .5rem;
+  }
+}
+
  .the-x-2-a {
   display: flex;
   flex-direction: row;
@@ -312,11 +336,12 @@ html {
   align-items: center;
   font-size: 2rem;
   font-family: $font__secondary;
+  color: $color__secondary;
   &:visited {
-    color: $color__accent;
+    color: $color__secondary;
     }
     &:hover {
-      color: $color__link-hover;
+      color: $color__accent;
     }
     &:after {
       content: "about me";
