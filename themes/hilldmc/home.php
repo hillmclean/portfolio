@@ -16,11 +16,12 @@ get_header(); ?>
 				<div class="page-header-container">
 					<div class ="home-nav">
 						<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
-						<!-- <div class="vl-home-1"></div> -->
+						<div class="vl-home-1"></div>
 						<a class="the-x-2-p" href="<?php echo esc_url( home_url( '/about' ) ); ?>">X</a>
-						<div class="header-box">
-							<h1>the projects</h1>
-						</div>
+						
+					</div>
+					<div class="header-box">
+						<h1>the projects</h1>
 					</div>
 				</div>
 			</header>
