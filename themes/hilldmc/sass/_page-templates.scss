@@ -38,6 +38,7 @@ html {
  transform: rotate(90deg);
  color: $color__text-secondary;
  font-size: .8rem;
+ font-style: italic;
 }
 
 // the projects
@@ -149,13 +150,15 @@ html {
 
 .page-header-container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: space-between;
   width: 75%;
   margin: 0 auto;
 
   @include desktop {
     max-width: $desktop;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
 
@@ -169,16 +172,23 @@ html {
 .header-box { 
   h1 {
   font-size: 2.5rem;
-  margin: 0px;
+  margin-bottom: 6rem;
+    @include desktop {
+      margin: 0px;
+    }
   }
 }
 
 .the-x-1-p {
   font-size: 3rem;
   position: absolute;
-  top: 0px;
-  left: 10px;
+  top: 79px;
+  left: 0px;
   font-family: $font__secondary;
+  @include desktop {
+    top: 0px;
+    left: -343px;
+  }
   &:visited {
   color: $color__accent;
   }
@@ -187,22 +197,64 @@ html {
       &:before {
         content: "home...";
         position: absolute;
-        top: 16px;
-        left: -65px;
+        top: 31px;
+        left: 38px;
         color: $color__text-secondary;
         font-family: $font__main;
         font-size: .8rem;
+        font-style: italic;
+        @include desktop {
+          top: 16px;
+          left: 43px;
+        }
+      }
+  }
+}
+
+.the-x-2-p {
+  font-size: 3rem;
+  position: absolute;
+  top: 79px;
+  left: 243px;
+  font-family: $font__secondary;
+  @include desktop {
+    top: 0px;
+    left: 10px;
+  }
+  &:visited {
+  color: $color__accent;
+  }
+  &:hover {
+    color: $color__link-hover;
+      &:before {
+        content: "...about me";
+        position: absolute;
+        top: 31px;
+        left: -98px;
+        color: $color__text-secondary;
+        font-family: $font__main;
+        font-size: .8rem;
+        font-style: italic;
+        @include desktop {
+          top: 16px;
+          left: -98px;
+        }
       }
   }
 }
 
 .vl-home-1 {
+  width: 200px;
   border-bottom: 2px solid $color__text-secondary;
-  height: 10px;
-  width: 300px;
   position: absolute;
-  top: 24px;
-  left: -300px;
+  top: 110px;
+  left: 39px;
+  @include desktop {
+    height: 10px;
+    width: 300px;
+    top: 24px;
+    left: -300px;
+  }
 }
 
 .site-main-projects {
@@ -230,16 +282,21 @@ html {
 
 .project-info {
   h2 {
-    margin-top: 0px;
+    margin-top: 3rem;
     color: $color__background-body;
     font-style: italic;
     font-size: 1.2rem;
     border-bottom: 2px solid $color__text-secondary;
     padding: 0.5rem;
+      @include desktop {
+        margin-top: 0px;  
+    } 
   }
 }
 
 .project-img {
+
+  margin: 3rem 0rem;
 
   img {
     box-shadow: 10px 10px $color__accent;

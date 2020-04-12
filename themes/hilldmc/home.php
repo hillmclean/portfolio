@@ -15,8 +15,9 @@ get_header(); ?>
 			<header class="page-header-projects">
 				<div class="page-header-container">
 					<div class ="home-nav">
-						<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
+						<a class="the-x-1-p" href="<?php echo esc_url( home_url( '/about' ) ); ?>">X</a>
 						<div class="vl-home-1"></div>
+						<a class="the-x-2-p" href="<?php echo esc_url( home_url( '/' ) ); ?>">X</a>
 					</div>
 					<div class="header-box">
 						<h1>the projects</h1>
@@ -53,4 +54,6 @@ get_header(); ?>
 		</div> 	<!-- projects-grid -->
 
 		</main><!-- #main -->
+
+		
 	</div><!-- #primary -->

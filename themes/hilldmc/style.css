@@ -727,7 +727,8 @@ html {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   color: #FEBB98;
-  font-size: .8rem; }
+  font-size: .8rem;
+  font-style: italic; }
 
 .projects-box {
   padding-top: 3rem;
@@ -820,10 +821,10 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -831,7 +832,14 @@ html {
   margin: 0 auto; }
   @media screen and (min-width: 1080px) {
     .page-header-container {
-      max-width: 1080px; } }
+      max-width: 1080px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: row-reverse;
+              flex-direction: row-reverse;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
 
 .home-nav {
   position: relative; }
@@ -840,14 +848,21 @@ html {
 
 .header-box h1 {
   font-size: 2.5rem;
-  margin: 0px; }
+  margin-bottom: 6rem; }
+  @media screen and (min-width: 1080px) {
+    .header-box h1 {
+      margin: 0px; } }
 
 .the-x-1-p {
   font-size: 3rem;
   position: absolute;
-  top: 0px;
-  left: 10px;
+  top: 79px;
+  left: 0px;
   font-family: "Kavivanar", cursive; }
+  @media screen and (min-width: 1080px) {
+    .the-x-1-p {
+      top: 0px;
+      left: -343px; } }
   .the-x-1-p:visited {
     color: #24F595; }
   .the-x-1-p:hover {
@@ -855,19 +870,57 @@ html {
     .the-x-1-p:hover:before {
       content: "home...";
       position: absolute;
-      top: 16px;
-      left: -65px;
+      top: 31px;
+      left: 38px;
       color: #FEBB98;
       font-family: "B612 Mono", monospace;
-      font-size: .8rem; }
+      font-size: .8rem;
+      font-style: italic; }
+      @media screen and (min-width: 1080px) {
+        .the-x-1-p:hover:before {
+          top: 16px;
+          left: 43px; } }
+
+.the-x-2-p {
+  font-size: 3rem;
+  position: absolute;
+  top: 79px;
+  left: 243px;
+  font-family: "Kavivanar", cursive; }
+  @media screen and (min-width: 1080px) {
+    .the-x-2-p {
+      top: 0px;
+      left: 10px; } }
+  .the-x-2-p:visited {
+    color: #24F595; }
+  .the-x-2-p:hover {
+    color: #BF6767; }
+    .the-x-2-p:hover:before {
+      content: "...about me";
+      position: absolute;
+      top: 31px;
+      left: -98px;
+      color: #FEBB98;
+      font-family: "B612 Mono", monospace;
+      font-size: .8rem;
+      font-style: italic; }
+      @media screen and (min-width: 1080px) {
+        .the-x-2-p:hover:before {
+          top: 16px;
+          left: -98px; } }
 
 .vl-home-1 {
+  width: 200px;
   border-bottom: 2px solid #FEBB98;
-  height: 10px;
-  width: 300px;
   position: absolute;
-  top: 24px;
-  left: -300px; }
+  top: 110px;
+  left: 39px; }
+  @media screen and (min-width: 1080px) {
+    .vl-home-1 {
+      height: 10px;
+      width: 300px;
+      top: 24px;
+      left: -300px; } }
 
 .site-main-projects {
   background-color: #FFFFFF;
@@ -892,17 +945,22 @@ html {
       margin-bottom: 4.5rem; } }
 
 .project-info h2 {
-  margin-top: 0px;
+  margin-top: 3rem;
   color: #000000;
   font-style: italic;
   font-size: 1.2rem;
   border-bottom: 2px solid #FEBB98;
   padding: 0.5rem; }
+  @media screen and (min-width: 1080px) {
+    .project-info h2 {
+      margin-top: 0px; } }
 
-.project-img img {
-  -webkit-box-shadow: 10px 10px #24F595;
-          box-shadow: 10px 10px #24F595;
-  border: 2px solid #24F595; }
+.project-img {
+  margin: 3rem 0rem; }
+  .project-img img {
+    -webkit-box-shadow: 10px 10px #24F595;
+            box-shadow: 10px 10px #24F595;
+    border: 2px solid #24F595; }
 
 .button {
   width: 10rem;
