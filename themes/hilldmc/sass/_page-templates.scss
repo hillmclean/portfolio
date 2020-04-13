@@ -61,6 +61,7 @@ html {
   top: 88px;
   left: 30px;
   margin-left: $base__space-unit;
+  color: $color__text-main;
   @include desktop {
     display: none;
   }
@@ -140,6 +141,7 @@ html {
   position: absolute;
   top: 160px;
   left: 130px;
+  color: $color__text-main;
   @include desktop {
     display: none;
   }
@@ -470,5 +472,11 @@ html {
     &:hover {
     color: $color__accent;
     }
+  }
+}
+
+.site-info {
+  a {
+  color: $color__text-main;
   }
 }

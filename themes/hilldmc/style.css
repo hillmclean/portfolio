@@ -744,7 +744,8 @@ html {
   position: absolute;
   top: 88px;
   left: 30px;
-  margin-left: 1.5rem; }
+  margin-left: 1.5rem;
+  color: #707070; }
   @media screen and (min-width: 1080px) {
     .project-h2 {
       display: none; } }
@@ -816,7 +817,8 @@ html {
 .person-h2 {
   position: absolute;
   top: 160px;
-  left: 130px; }
+  left: 130px;
+  color: #707070; }
   @media screen and (min-width: 1080px) {
     .person-h2 {
       display: none; } }
@@ -1178,3 +1180,6 @@ html {
     color: white; }
     .social-icons .mail:hover {
       color: #24F595; }
+
+.site-info a {
+  color: #707070; }
