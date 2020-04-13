@@ -804,7 +804,7 @@ html {
       top: -665px;
       left: 50px; }
       .vl-front-1:after {
-        content: "home";
+        content: "the projects";
         font-family: "B612 Mono", monospace;
         font-size: 1rem;
         font-style: italic;
