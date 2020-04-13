@@ -74,7 +74,11 @@ html {
   left: 10px;
   font-family: $font__secondary;
   @include desktop {
-    display: none;
+    top: -749px;
+    left: 745px;
+    &:hover {
+      color: $color__link-hover;
+    }
   }
 }
 
@@ -93,6 +97,9 @@ html {
   &:hover {
     color: $color__link-hover;
   }
+  @include desktop {
+    display: none;
+  }
 }
 
 .vl-front-1 {
@@ -107,7 +114,7 @@ html {
     align-items: flex-end;
     border-left: 0px;
     border-bottom: 2px solid $color__text-secondary;
-    width: 65%;
+    width: 684px;
     height: 0px;
     top: -665px;
     left: 50px;
@@ -148,7 +155,11 @@ html {
   left: 265px;
   font-family: $font__secondary;
   @include desktop {
-    display: none;
+    top: -561px;
+    left: 1000px;
+     &:hover {
+      color: $color__link-hover;
+    }
   }
 }
 
@@ -163,6 +174,9 @@ html {
   }
   &:hover {
     color: $color__link-hover;
+  }
+  @include desktop {
+    display: none;
   }
 }
 
@@ -180,7 +194,7 @@ html {
     height: 0px;
     border-left: 0px;
     border-bottom: 2px solid $color__text-secondary;
-    width: 65%;
+    width: 684px;
     top: -480px;
     left: 305px;
     &:after {

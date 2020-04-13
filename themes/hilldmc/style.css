@@ -760,7 +760,10 @@ html {
   font-family: "Kavivanar", cursive; }
   @media screen and (min-width: 1080px) {
     .the-x-1 {
-      display: none; } }
+      top: -749px;
+      left: 745px; }
+      .the-x-1:hover {
+        color: #BF6767; } }
 
 .the-x-1-t {
   font-size: 3rem;
@@ -773,6 +776,9 @@ html {
     color: #24F595; }
   .the-x-1-t:hover {
     color: #BF6767; }
+  @media screen and (min-width: 1080px) {
+    .the-x-1-t {
+      display: none; } }
 
 .vl-front-1 {
   border-left: 2px solid #FEBB98;
@@ -793,7 +799,7 @@ html {
               align-items: flex-end;
       border-left: 0px;
       border-bottom: 2px solid #FEBB98;
-      width: 65%;
+      width: 684px;
       height: 0px;
       top: -665px;
       left: 50px; }
@@ -826,7 +832,10 @@ html {
   font-family: "Kavivanar", cursive; }
   @media screen and (min-width: 1080px) {
     .the-x-2 {
-      display: none; } }
+      top: -561px;
+      left: 1000px; }
+      .the-x-2:hover {
+        color: #BF6767; } }
 
 .the-x-2-t {
   font-size: 3rem;
@@ -838,6 +847,9 @@ html {
     color: #24F595; }
   .the-x-2-t:hover {
     color: #BF6767; }
+  @media screen and (min-width: 1080px) {
+    .the-x-2-t {
+      display: none; } }
 
 .vl-front-2 {
   border-left: 2px solid #FEBB98;
@@ -861,7 +873,7 @@ html {
       height: 0px;
       border-left: 0px;
       border-bottom: 2px solid #FEBB98;
-      width: 65%;
+      width: 684px;
       top: -480px;
       left: 305px; }
       .vl-front-2:after {
