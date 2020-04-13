@@ -720,6 +720,9 @@ html {
   width: 100%;
   height: 55vh;
   background-color: #FFFFFF; }
+  @media screen and (min-width: 1080px) {
+    .front-nav {
+      height: 10vh; } }
 
 .follow {
   position: absolute;
@@ -730,6 +733,9 @@ html {
   color: #FEBB98;
   font-size: .8rem;
   font-style: italic; }
+  @media screen and (min-width: 1080px) {
+    .follow {
+      display: none; } }
 
 .projects-box {
   padding-top: 3rem;
@@ -741,6 +747,9 @@ html {
   top: 88px;
   left: 30px;
   margin-left: 1.5rem; }
+  @media screen and (min-width: 1080px) {
+    .project-h2 {
+      display: none; } }
 
 .the-x-1 {
   font-size: 3rem;
@@ -749,6 +758,9 @@ html {
   top: 30px;
   left: 10px;
   font-family: "Kavivanar", cursive; }
+  @media screen and (min-width: 1080px) {
+    .the-x-1 {
+      display: none; } }
 
 .the-x-1-t {
   font-size: 3rem;
@@ -765,9 +777,32 @@ html {
 .vl-front-1 {
   border-left: 2px solid #FEBB98;
   height: 710px;
-  width: 2px;
   position: absolute;
   top: -630px; }
+  @media screen and (min-width: 1080px) {
+    .vl-front-1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      border-left: 0px;
+      border-bottom: 2px solid #FEBB98;
+      width: 65%;
+      height: 0px;
+      top: -665px;
+      left: 50px; }
+      .vl-front-1:after {
+        content: "home";
+        font-family: "B612 Mono", monospace;
+        font-size: 1rem;
+        font-style: italic;
+        color: #707070; } }
 
 .person-box {
   position: relative; }
@@ -778,6 +813,9 @@ html {
   position: absolute;
   top: 160px;
   left: 130px; }
+  @media screen and (min-width: 1080px) {
+    .person-h2 {
+      display: none; } }
 
 .the-x-2 {
   font-size: 3rem;
@@ -786,6 +824,9 @@ html {
   top: 100px;
   left: 265px;
   font-family: "Kavivanar", cursive; }
+  @media screen and (min-width: 1080px) {
+    .the-x-2 {
+      display: none; } }
 
 .the-x-2-t {
   font-size: 3rem;
@@ -805,6 +846,30 @@ html {
   position: absolute;
   top: -450px;
   left: 280px; }
+  @media screen and (min-width: 1080px) {
+    .vl-front-2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      height: 0px;
+      border-left: 0px;
+      border-bottom: 2px solid #FEBB98;
+      width: 65%;
+      top: -480px;
+      left: 305px; }
+      .vl-front-2:after {
+        content: "the person";
+        font-family: "B612 Mono", monospace;
+        font-size: 1rem;
+        font-style: italic;
+        color: #707070; } }
 
 /* Projects Page */
 .page-header-projects {

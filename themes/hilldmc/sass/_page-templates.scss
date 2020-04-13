@@ -29,6 +29,9 @@ html {
   width: 100%;
   height: 55vh;
   background-color: $color__main;
+  @include desktop {
+    height: 10vh;
+  }
 }
 
 .follow {
@@ -39,6 +42,10 @@ html {
  color: $color__text-secondary;
  font-size: .8rem;
  font-style: italic;
+
+ @include desktop {
+   display: none;
+ }
 }
 
 // the projects
@@ -54,6 +61,9 @@ html {
   top: 88px;
   left: 30px;
   margin-left: $base__space-unit;
+  @include desktop {
+    display: none;
+  }
 }
 
 .the-x-1 {
@@ -63,6 +73,9 @@ html {
   top: 30px;
   left: 10px;
   font-family: $font__secondary;
+  @include desktop {
+    display: none;
+  }
 }
 
 .the-x-1-t {
@@ -85,9 +98,27 @@ html {
 .vl-front-1 {
   border-left: 2px solid $color__text-secondary;
   height: 710px;
-  width: 2px;
   position: absolute;
   top: -630px;
+
+  @include desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-left: 0px;
+    border-bottom: 2px solid $color__text-secondary;
+    width: 65%;
+    height: 0px;
+    top: -665px;
+    left: 50px;
+    &:after {
+      content: "home";
+      font-family: $font__main;
+      font-size: 1rem;
+      font-style: italic;
+      color: $color__text-main;
+    }
+  }
 }
 
 // the person
@@ -104,6 +135,9 @@ html {
   position: absolute;
   top: 160px;
   left: 130px;
+  @include desktop {
+    display: none;
+  }
 }
 
 .the-x-2 {
@@ -113,6 +147,9 @@ html {
   top: 100px;
   left: 265px;
   font-family: $font__secondary;
+  @include desktop {
+    display: none;
+  }
 }
 
 .the-x-2-t {
@@ -136,6 +173,24 @@ html {
   position: absolute;
   top: -450px;
   left: 280px;
+  @include desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid $color__text-secondary;
+    width: 65%;
+    top: -480px;
+    left: 305px;
+    &:after {
+      content: "the person";
+      font-family: $font__main;
+      font-size: 1rem;
+      font-style: italic;
+      color: $color__text-main;
+    }
+  }
 }
 
 /* Projects Page */
@@ -209,16 +264,16 @@ html {
   &:visited {
     color: $color__accent;
     }
-    &:hover {
-      color: $color__link-hover;
-    }
-    &:after {
-      content: "about me";
-      font-family: $font__main;
-      font-size: 0.8rem;
-      font-style: italic;
-      margin-left: .5rem;
-    }
+  &:hover {
+    color: $color__link-hover;
+  }
+  &:after {
+    content: "about me";
+    font-family: $font__main;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: .5rem;
+  }
 }
 
 .site-main-projects {
