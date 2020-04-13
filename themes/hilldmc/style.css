@@ -436,16 +436,14 @@ textarea {
 # Navigation
 --------------------------------------------------------------*/
 /* Links */
-a {
-  color: royalblue; }
-  a:visited {
-    color: #707070; }
-  a:hover, a:focus, a:active {
-    color: #BF6767; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover, a:active {
-    outline: 0; }
+a:hover, a:focus, a:active {
+  color: #BF6767; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:hover, a:active {
+  outline: 0; }
 
 /* Menus */
 .main-navigation {
@@ -838,6 +836,7 @@ html {
         color: #BF6767; } }
 
 .the-x-2-t {
+  color: #24F595;
   font-size: 3rem;
   position: absolute;
   top: -515px;
@@ -847,6 +846,8 @@ html {
     color: #24F595; }
   .the-x-2-t:hover {
     color: #BF6767; }
+  .the-x-2-t a {
+    color: #24F595; }
   @media screen and (min-width: 1080px) {
     .the-x-2-t {
       display: none; } }
@@ -950,7 +951,8 @@ html {
           align-items: center;
   font-size: 2rem;
   font-family: "Kavivanar", cursive;
-  margin-right: 5rem; }
+  margin-right: 5rem;
+  color: #24F595; }
   .the-x-1-p:visited {
     color: #24F595; }
   .the-x-1-p:hover {
@@ -977,7 +979,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 2rem;
-  font-family: "Kavivanar", cursive; }
+  font-family: "Kavivanar", cursive;
+  color: #24F595; }
   .the-x-2-p:visited {
     color: #24F595; }
   .the-x-2-p:hover {

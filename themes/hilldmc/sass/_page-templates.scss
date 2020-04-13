@@ -89,11 +89,9 @@ html {
   top: -700px;
   left: 10px;
   font-family: $font__secondary;
-
   &:visited {
     color: $color__accent;
     }
-
   &:hover {
     color: $color__link-hover;
   }
@@ -164,6 +162,7 @@ html {
 }
 
 .the-x-2-t {
+  color: $color__accent;
   font-size: 3rem;
   position: absolute;
   top: -515px;
@@ -174,6 +173,9 @@ html {
   }
   &:hover {
     color: $color__link-hover;
+  }
+  a {
+    color: $color__accent;
   }
   @include desktop {
     display: none;
@@ -253,6 +255,7 @@ html {
   font-size: 2rem;
   font-family: $font__secondary;
   margin-right: 5rem;
+  color: $color__accent;
   &:visited {
   color: $color__accent;
   }
@@ -275,6 +278,7 @@ html {
   align-items: center;
   font-size: 2rem;
   font-family: $font__secondary;
+  color: $color__accent;
   &:visited {
     color: $color__accent;
     }
